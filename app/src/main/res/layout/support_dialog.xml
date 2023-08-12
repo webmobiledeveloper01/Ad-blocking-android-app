@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/topbar_border"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:weightSum="3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:src="@drawable/appstore"
+                android:layout_height="100dp"/>
+
+            <LinearLayout
+                android:gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/newll"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+
+                    <com.iambedant.text.OutlineTextView
+                        android:gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="תמיכה"
+                        app:outlineWidth="0.5"
+                        app:outlineColor="@color/black"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/stymie_becker_black"
+                        android:textColor="#38b6ff"
+                        android:textSize="20sp"
+                        />
+
+                    <com.iambedant.text.OutlineTextView
+                        android:gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SUPPORT"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/stymie_becker_black"
+                        android:textColor="#ec1c24"
+                        android:textSize="20sp"
+                        app:outlineWidth="0.5"
+                        app:outlineColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/draw_btn"
+                    android:layout_width="40dp"
+                    android:src="@drawable/support"
+                    android:layout_height="40dp"/>
+
+
+
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="#3891f5"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="ברוכים הבאים"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="#3891f5"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="תמיכה במייל"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="#3891f5"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Welcome to email\nsupport"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:background="@drawable/support_border"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="כניסה לתמיכה"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="Login to support"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/close_ll"
+            android:background="@drawable/support_border"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="סגירה"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="Closure"
+
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

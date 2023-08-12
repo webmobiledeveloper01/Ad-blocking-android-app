@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "137267022437",
+    "project_id": "stripe-payment-backend",
+    "storage_bucket": "stripe-payment-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137267022437:android:921207e1723bc3c605d48c",
+        "android_client_info": {
+          "package_name": "com.omt.omtkosher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137267022437-h0m4sdabpjmcpvmqtjakb879asfok7ti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omt.omtkosher",
+            "certificate_hash": "87bcc0da2b6a2372dde2ef5395a5e8ba0582980b"
+          }
+        },
+        {
+          "client_id": "137267022437-s9r5317ddors3a8pscdsig4njgtdrfia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ATT4c6TlNConMQYqpeAjw0LT-_5x3E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137267022437-s9r5317ddors3a8pscdsig4njgtdrfia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
